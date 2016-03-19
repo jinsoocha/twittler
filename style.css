@@ -40,6 +40,20 @@ body {
 	float: left;
 }
 
-#tweets { 
+.tweets, .newtweets, .history { 
 	display: table-row;
+}
+
+.history {
+	color: blue;
+}
+
+#name {
+	margin: 20px 0 0 0;
+}
+
+#username {
+	font-size: smaller;
+	margin: 0;
+	color: #8D8E8F;
 }

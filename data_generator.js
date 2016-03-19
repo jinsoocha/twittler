@@ -50,7 +50,7 @@ for(var i = 0; i < 2; i++){
   generateRandomTweet();
 }
 
-var time = Math.random() * 5000;
+var time = Math.random() * 10000;
 
 var scheduleNextTweet = function(){
   generateRandomTweet();
